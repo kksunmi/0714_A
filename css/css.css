@@ -1,4 +1,4 @@
-*{margin: 0;padding: 0;} a{color: #222;text-decoration: none;} ul, li, ol, dl{list-style: none;}a:hover{color: tomato;}
+*{margin: 0;padding: 0;} a{color: #222;text-decoration: none;} ul, li, ol, dl{list-style: none;}
 
 /* common */
 
@@ -12,3 +12,25 @@
 .h300{height: 300px;}
 .ofh{ overflow:hidden }
 .m-auto{margin: 0 auto;}
+.justify-content-bew{justify-content: space-between;}
+.justify-items{align-items: center;}
+
+
+
+#hd h1 img{display: block; max-width: 1200px;}
+#hd h1 a{display: block;}
+
+#gnb{width: 50%;text-align: center; margin-right: 15px;}
+#gnb > li{width: 28%;  line-height: 50px;}
+#gnb > li > a{font-size: 18px; font-weight: 600;}
+#gnb ul{top: 100%;width: 100%;left: 0;right: 0;height: 0;
+        overflow: hidden; transition: 0.6s;}
+#gnb ul > li{line-height: 40px; background-color: #fff;}
+
+#gnb > li:hover ul{height: calc(3em * 3)}
+#gnb ul li:hover,#gnb > li:hover{background-color: #1a60a1;}
+#gnb ul li:hover a,#gnb > li:hover > a{color: #fff;}
+
+
+/* #banners div{width: 33.333%;}  
+#gallery img{width: 100%;} */
